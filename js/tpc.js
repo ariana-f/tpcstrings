@@ -30,6 +30,8 @@ let titleCase = function(str)
           return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
         }
       );
+
+      //https://stackoverflow.com/questions/196972/convert-string-to-title-case-with-javascript
 }
 titleCase("Hoje está um lindo dia");
 
